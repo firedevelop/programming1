@@ -7,4 +7,12 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Csharp\" />
+    <None Remove="MySQL\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Csharp\" />
+    <Folder Include="MySQL\" />
+  </ItemGroup>
 </Project>
